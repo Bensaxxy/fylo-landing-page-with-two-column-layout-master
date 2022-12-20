@@ -334,6 +334,20 @@ footer{
   transition: 0.5s;
 }
 
+.attribution{
+  text-align: center;
+  color: var(--Light-Grayish-Blue);
+}
+
+.attribution a{
+  color: hsl(239, 24%, 64%);
+  text-decoration: underline;
+}
+
+.attribution a:hover{
+  color: var(--Bright-Blue);
+  transition: 0.5s;
+}
 
 /* mobile layout */
 
