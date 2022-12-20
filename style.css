@@ -622,9 +622,7 @@ footer{
     text-align: center;
   }
   .Socia-icons a i:hover{
-    color: var(--Bright-Blue);
-    border: 1px solid var(--Bright-Blue);
-    transition: 0.5s;
+    display: none;
   }
 }
 @media screen and (max-width: 400px) {
@@ -896,8 +894,6 @@ footer{
     text-align: center;
   }
   .Socia-icons a i:hover{
-    color: var(--Bright-Blue);
-    border: 1px solid var(--Bright-Blue);
-    transition: 0.5s;
+    display: none;
   }
 }
