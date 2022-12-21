@@ -883,6 +883,7 @@ footer{
     grid-template-columns: repeat(3, 60px);
     text-align: center;
     width: 100%;
+    padding-bottom: 20px;
   }
 
   .Socia-icons a i{
@@ -894,6 +895,8 @@ footer{
     text-align: center;
   }
   .Socia-icons a i:hover{
-    display: none;
-  }
+  color: var(--Bright-Blue);
+  border: 1px solid var(--Bright-Blue);
+  transition: 0.5s;
+}
 }
